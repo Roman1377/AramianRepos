@@ -7,10 +7,6 @@ try
 {
     int result = firstNumber / secondNumber;
     Console.WriteLine($"Result: {result}");
-
-    if (secondNumber == 0)
-
-        Console.WriteLine("Error: Division by zero is not allowed.");
 }
 catch (DivideByZeroException ex)
 {
